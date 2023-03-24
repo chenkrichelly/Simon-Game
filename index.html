@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap&effect=emboss" rel="stylesheet" type='text/css'>
+  <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet" type='text/css'>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div id="outer-circle">
+    <div id="green"></div>
+    <div id="red"></div>
+    <div id="yellow"></div>
+    <div id="blue"></div>
+    <div id="inner-circle">
+      <div id="title" class="font-effect-emboss">SIMON!</div>
+      <div id="switches">
+        <label class="switch toggle">
+          <input type="checkbox" id="on">
+          <span class="slider round"></span>
+        </label>
+        <button class="button" id="start">START</button>
+        <label class="switch toggle">
+          <input type="checkbox" id="strict">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="text1">
+        <span>power</span><span>strict</span>
+      </div>
+      <div id="turn"></div>
+      <div class="text2">count</div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
