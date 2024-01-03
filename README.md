@@ -28,7 +28,8 @@ To get a local copy up and running, follow these simple steps:
    ```bash
    git clone https://github.com/chenkrichelly/Simon-Game.git  
 2. Open the project folder:
-   ```cd Simon-Game
+   ```bash
+   cd Simon-Game
 3. Open the index.html file in your preferred web browser.
    
 ## How to Play
